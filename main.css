@@ -1,0 +1,236 @@
+@import url(https://fonts.googleapis.com/css2?family=EB+Garamond&family=Libre+Baskerville:ital@1&display=swap);
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 1em;
+  font-family: inherit;
+}
+
+html {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(91673419ba30ca7273b319a9a5ef525a.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+#container {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+#container > div:first-child {
+  width: 100%;
+}
+
+#container > div:nth-child(n + 2) {
+  flex: 1;
+  width: 500px;
+  margin: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  #container > div:nth-child(n + 2) {
+    width: 80%;
+  }
+}
+
+body {
+  font-family: "EB Garamond", serif;
+}
+
+._3onpuqQqVT4gU2FaV2o97G {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+}
+
+.AZH_7n7E611cGBKMHrQMp {
+  flex: 1;
+  background: black;
+  width: 100%;
+  height: 70px;
+  vertical-align: middle;
+  z-index: 9;
+}
+
+._12oEYnsQOAKSRcjh0NnS7b {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+}
+
+.AZH_7n7E611cGBKMHrQMp ul {
+  flex: 1;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+
+.AZH_7n7E611cGBKMHrQMp li {
+  flex: 1;
+  height: 70px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.AZH_7n7E611cGBKMHrQMp a {
+  text-decoration: none;
+  font-size: 0.9em;
+  font-weight: bold;
+  padding: 5px;
+  display: inline-block;
+  color: white;
+  text-transform: uppercase;
+  border-bottom: solid black 1px;
+  transition: 0.5s ease;
+}
+
+.AZH_7n7E611cGBKMHrQMp a:hover {
+  border-bottom: solid red 1px;
+}
+
+._28xY4RJ4peKbfKwjToiLIu {
+  width: 50px;
+  height: 50px;
+}
+
+.AG8S9S27sV_M1nOtqfTgY {
+  display: flex;
+  width: 100%;
+  flex-flow: row nowrap;
+  align-items: stretch;
+  overflow: hidden;
+}
+
+._1DerBtQanV-DPCfdyUM2UJ {
+  transition: transform 1s ease-in-out;
+  white-space: nowrap;
+  margin: 0;
+  padding: 0;
+}
+.IocI0jSOXKdncyrQyJ5Zy {
+  display: inline-block;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+._3IHNW7BqXKFw_68skygAmm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: solid black 1px;
+  margin: 0px;
+  padding: 0px;
+  color: white;
+}
+
+.Vp13u-H3Yn0z84vsqP4Jc {
+  flex: 1;
+  font-size: 2em;
+  font-weight: bolder;
+  text-transform: uppercase;
+  padding-top: 40px;
+}
+
+.nvWGtR2cXD-y2nJiRLM11 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.nvWGtR2cXD-y2nJiRLM11 > h1 {
+  flex: 1;
+  font-size: 1.25em;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.nvWGtR2cXD-y2nJiRLM11 > h2 {
+  flex: 1;
+  font-size: 1.25em;
+  font-weight: bolder;
+}
+
+.nvWGtR2cXD-y2nJiRLM11 > h2:before {
+  content: "~ ";
+}
+
+.nvWGtR2cXD-y2nJiRLM11 > h2:after {
+  content: " ~";
+}
+
+.nvWGtR2cXD-y2nJiRLM11 > p {
+  flex: 1;
+  font-size: 1.2em;
+  padding-top: 10px;
+  max-width: 80%;
+  text-align: center;
+}
+
+._3Q0CFdQWtXDaAsjwPMPjvO {
+  display: flex;
+  width: 100%;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+._3Q0CFdQWtXDaAsjwPMPjvO > img {
+  display: inline-block;
+  background-size: cover;
+}
+
+._15zTnkEuRAWs56rg3vAKOS {
+  display: flex;
+  width: 100%;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+._15zTnkEuRAWs56rg3vAKOS > h1 {
+  display: inline-block;
+  font-size: 2em;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+._3SN-zwM_YJoJb6p9hkqdSL {
+  display: flex;
+  width: 100%;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+._3SN-zwM_YJoJb6p9hkqdSL > p {
+  flex: 1;
+  display: inline-block;
+  font-size: 1.2em;
+  text-align: center;
+}
+
+._1W1tyJSjYJecBpQ_326agS {
+  display: flex;
+  width: 100%;
+  flex-wrap: nowrap;
+  justify-content: center;
+  border: 0;
+}
+
+._1P9DU4Mt2i7dCt2cPRXgCO > iframe {
+  flex: 1;
+  margin: 0px;
+  padding: 0px;
+}
+
